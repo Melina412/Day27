@@ -1,0 +1,42 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  margin: 0;
+  position: relative;
+}
+
+form {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 120px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  position: absolute;
+  left: 44vw;
+  top: 40vh;
+}
+
+input,
+label,
+button {
+  display: block;
+  width: 100%;
+}
+
+label {
+  font-size: 20px;
+}

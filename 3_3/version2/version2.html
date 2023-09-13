@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms-3_3-version2</title>
+  </head>
+  <body>
+    <main id="colorSection" style="height: 100vh; width: 100vw; margin: 0">
+      <section style="margin: 0 auto; padding: 50px; text-align: center">
+        <h1>rgb color picker smooth version 😌</h1>
+        <form onsubmit="return false;">
+          <label for="redRange">RED</label>
+          <input type="range" id="red" min="0" max="255" step="1" value="128" />
+
+          <label for="greenRange">GREEN</label>
+          <input
+            type="range"
+            id="green"
+            min="0"
+            max="255"
+            step="1"
+            value="128"
+          />
+
+          <label for="blueRange">BLUE</label>
+          <input
+            type="range"
+            id="blue"
+            min="0"
+            max="255"
+            step="1"
+            value="128"
+          />
+        </form>
+      </section>
+    </main>
+    <script src="./js/version2.js"></script>
+  </body>
+</html>
