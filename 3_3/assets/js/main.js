@@ -13,4 +13,8 @@ function changeBackground() {
   colorSection.style.backgroundColor = rgbColor;
 }
 
-// die variante mit onchange ist eigentlich nicht gut für die funktion einer farbänderung geeignet, weil die farbänderung erst nach loslassen des reglers erfolgt und nicht bereits beim schieben. es geht besser, wenn man die function über einen event-listener aufruft, weil sich so die farbe kontinuierlich ändert (siehe version2 😉)
+// die variante mit onchange ist eigentlich nicht gut für die funktion
+// einer farbänderung geeignet, weil die farbänderung erst nach loslassen
+// des reglers erfolgt und nicht bereits beim schieben. es geht besser,
+// wenn man die function über einen event-listener aufruft, weil sich so
+// die farbe kontinuierlich ändert (siehe version2 😉)
